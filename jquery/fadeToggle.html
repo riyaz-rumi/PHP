@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fade Toggle Event</title>
+    <link rel="stylesheet" href="margepadd.css" />
+    <script src='jquery.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("img").fadeToggle(2000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <button>Click to fade in the image</button><br />
+    <img src="png1.png"/>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fade Event</title>
+    <link rel="stylesheet" href="margepadd.css" />
+    <script src='jquery.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("#b1").click(function(){
+                $("img").fadeIn(1000, function(){
+                    alert("Your image is now fadded in in just a second!");
+                });
+            });
+            $("#b2").click(function(){
+                $("img").fadeOut(1000, function(){
+                    alert("Your image is now fadded out in just a second!");
+                });
+            });
+            $("#b3").click(function(){
+                $("img").fadeToggle(1000, function(){
+                    alert("Your image is now fadded out in just a second!");
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <button id="b1">Fade In the image</button>
+    <button id="b2">Fade Out the image</button>
+    <button id="b3">Fade Toggle the image</button><br /><br />
+    <img src="png1.png" style="display: none;"/>
+</body>
+</html>

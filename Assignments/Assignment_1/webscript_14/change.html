@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Event</title>
+    <script src='jquery.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("input").change(function(){
+                a = $("input").val();
+                alert("You Typped " + a + " In Text Box...");
+            });
+        });
+    </script>
+</head>
+<body>
+    <input type="text" placeholder="Type Something...">
+</body>
+</html>

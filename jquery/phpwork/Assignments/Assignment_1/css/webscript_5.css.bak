@@ -1,0 +1,42 @@
+* {
+    padding: 2px;
+    margin: 15px;
+}
+body {
+    font-size: 1.05em;
+    text-align: center;
+}
+div {
+    width: 30%;
+    color: white;
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+}
+input {
+    width: 100px;
+    font-size: 1.0em;
+    font-family: 'Times New Roman', Times, serif;
+}
+#go {
+    width: 22%;
+    position: sticky;
+    padding: 6px;
+    font-size: 1.0em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(18, 136, 32);
+    color: white;
+}
+#reset {
+    width: 22%;
+    position: sticky;
+    padding: 6px;
+    font-size: 1.0em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(164, 16, 16);
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}

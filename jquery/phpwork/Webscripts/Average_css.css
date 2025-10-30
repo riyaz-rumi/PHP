@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    align-items: center;
+}
+body {
+    align-items: center;
+    align-self: auto;
+    align-self: center;
+}
+#Go {
+    margin: 5px;
+    padding: 8px;
+    width: 100px;
+    background-color: green;
+    color: white;
+}
+#Reset {
+    margin: 0 40px;
+    padding: 8px;
+    width: 100px;
+    background-color: red;
+    color: white;
+
+}
+a {
+    color:cyan;
+}

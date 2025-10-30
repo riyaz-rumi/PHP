@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Show Event</title>
+    <link rel="stylesheet" href="margepadd.css" />
+    <script src='jquery.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("img").show(4000, function(){
+                    alert("Your image is completely shown in 4 seconds!");
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <button>Click to show the image</button><br />
+    <img src="png1.png" style="display: none;"/>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Slide Events</title>
+	<script src="jquery.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#slideUp").click(function(){
+				$("img").slideUp(1000, function(){
+					alert("Slide upped in just 1 second!");
+				});
+			});
+			$("#slideDown").click(function(){
+				$("img").slideDown(1000, function(){
+					alert("Slide downed in just 1 second!");
+				});
+			});
+			$("#slideToggle").click(function(){
+				$("img").slideToggle(1000, function(){
+					alert("Slide toggled in just 1 second!");
+				});
+			});
+		});
+	</script>
+	<link href="css/slide_events.css" rel="stylesheet">
+</head>
+
+<body>
+	<button id="slideUp">Slide Up</button>
+	<button id="slideDown">Slide Down</button>
+	<button id="slideToggle">Slide Toggle</button>
+	<figure>
+		<img src="image1.jpg" />
+	</figure>
+
+</body>
+
+</html>

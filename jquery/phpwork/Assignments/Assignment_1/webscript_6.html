@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webscript 6</title>
+    <link href="css/webscript_6.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="myFlex">
+        <form action="webscript_6.php" method="post">
+            <h2>Math-functions</h2>
+            First Number: <input type="number" max="10000000" name="fn" required/>
+            <br />
+            Second Number: <input type="number" max="10000000" name="sn" required/>
+            <br />
+            <div>
+                <label><input class="analysis" type="checkbox" name="math_functions[]" value="sqrt"/>sqrt ( )</label><br />
+                <label><input class="analysis" type="checkbox" name="math_functions[]" value="min"/>min ( )</label><br />
+                <label><input class="analysis" type="checkbox" name="math_functions[]" value="max"/>max ( )</label><br />
+            </div>
+            <div>
+                <label><input class="analysis" type="checkbox" name="math_functions[]" value="bindec"/>bindec ( )</label><br />
+                <label><input class="analysis" type="checkbox" name="math_functions[]" value="pow"/>pow ( )</label><br />
+                <label><input class="analysis" type="checkbox" name="math_functions[]" value="decbin"/>decbin ( )</label><br />
+            </div>
+            <div>
+                <label><input class="analysis" type="checkbox" name="math_functions[]" value="fmod"/>fmod ( )</label><br />
+                <label><input class="analysis" type="checkbox" name="math_functions[]" value="rand"/>rand ( )</label><br />
+                <label><input class="analysis" type="checkbox" name="math_functions[]" value="decoct"/>decoct ( )</label><br />
+            </div>
+            <br />
+            <input type="submit" id="go" value="Go" />
+            <input type="reset" id="reset" value="Reset" />
+        </form>
+    </div>
+</body>
+</html>
+    <!-- <label><input type="checkbox" name="math_functions[]" value="ceil"/>ceil ( )</label><br />
+    <label><input type="checkbox" name="math_functions[]" value="floor"/>floor ( )</label><br />
+    <label><input type="checkbox" name="math_functions[]" value="round"/>round ( )</label><br /> 
+    <label><input type="checkbox" name="math_functions[]" value="octdec"/>octdec ( )</label><br /> -->

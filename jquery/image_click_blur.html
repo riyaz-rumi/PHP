@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image click & Blur</title>
+    <script src='jquery.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("#c1").click(function(){
+                $("#img1").hide();
+            });
+            $("#c2").click(function(){
+                $("#img2").hide();
+            });
+            $("#c3").click(function(){
+                $("#img3").hide();
+            });
+            $("#c4").click(function(){
+                $("#img4").hide();
+            });
+            $("#c5").click(function(){
+                $("#img5").hide();
+            });
+        });
+    </script>
+    <style>
+        figure{
+            width: 150px;
+            height: 150px;
+            padding: 4px;
+            display: inline;
+        }
+        img{
+            width: 150px;
+        }
+        figure{
+            border: 2px solid;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Image click & Blur</h3>
+    <ul>
+        <li>Delete Image 1 <input id="c1" type="checkbox"/></li>
+        <li>Delete Image 2 <input id="c2" type="checkbox"/></li>
+        <li>Delete Image 3 <input id="c3" type="checkbox"/></li>
+        <li>Delete Image 4 <input id="c4" type="checkbox"/></li>
+        <li>Delete Image 5 <input id="c5" type="checkbox"/></li>
+    </ul>
+    <figure><img id="img1" src="image1.jpg"/></figure>
+    <figure><img id="img2" src="image2.jpg"/></figure>
+    <figure><img id="img3" src="image3.jpg"/></figure>
+    <figure><img id="img4" src="image4.jpg"/></figure>
+    <figure><img id="img5" src="image5.jpg"/></figure>
+</body>
+</html>

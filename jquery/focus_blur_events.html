@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Focus & Blur Event</title>
+    <link rel="stylesheet" href="margepadd.css" />
+    <script src='jquery.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("#i1").focus(function(){
+                $("#i1").addClass("CSS");
+            });
+            $("#i1").blur(function(){
+                $("#i1").removeClass("CSS");
+            });
+            $("#i2").focus(function(){
+                $("#i2").addClass("CSS");
+            });
+            $("#i2").blur(function(){
+                $("#i2").removeClass("CSS");
+            });
+        });
+    </script>
+    <style>
+        .CSS{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Focus & Blur Event</h3>
+    <label><input id="i1" type="text" /></label>
+    <br />
+    <label><input id="i2" type="text" /></label>
+</body>
+</html>

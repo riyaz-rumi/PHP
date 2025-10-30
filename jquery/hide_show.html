@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hide & Show Event</title>
+    <link rel="stylesheet" href="margepadd.css" />
+    <script src='jquery.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("#b2").click(function(){
+                $("img").show(4000, function(){
+                    alert("Your image is completely shown in 4 seconds!");
+                });
+            });
+            $("#b1").click(function(){
+                $("img").hide(4000, function(){
+                    alert("Your image is completely shown in 4 seconds!");
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <button id="b1">Click to hide the image</button>
+    <button id="b2">Click to show the image</button><br />
+    <img src="png1.png"/>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Webscript 2</title>
+	<link href="css/webscript_2.css" rel="stylesheet">
+</head>
+
+<body>
+	<div>
+		<form method="get" action="webscript_2_radio.php">
+			<h3>Calculator</h3>
+			Enter 1st Number:<input class="number" max="10000000" type="number" name="f1" required />
+			<br />
+			Enter 2nd Number:<input class="number" max="10000000" type="number" name="f2" required />
+			<br />
+			<div class="left">
+				<label><input type="radio" name="op" value="Addition" />Addition</label><br />
+				<label><input type="radio" name="op" value="Subtraction"/>Subtraction</label><br />
+				<label><input type="radio" name="op" value="Modulo Division"/>Modulo Division</label>
+			</div>
+			<div class="right">
+				<label><input type="radio" name="op" value="Multiplication"/>Multiplication</label><br />
+				<label><input type="radio" name="op" value="Division"/>Division</label>
+			</div>
+			<br />
+			<input id="Go" type="submit" value="Go" />
+			<input id="Reset" type="reset" value="Reset" />
+		</form>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fade In Event</title>
+    <link rel="stylesheet" href="margepadd.css" />
+    <script src='jquery.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("img").fadeIn(4000, function(){
+                    alert("Your image is now fadded in!");
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <button>Click to fade in the image</button><br /><br />
+    <img src="png1.png" style="display: none;"/>
+</body>
+</html>

@@ -1,0 +1,36 @@
+html {
+    padding: 0px;
+    margin: 10px;
+}
+body {
+    color: white;
+    text-align: center;
+}
+div {
+    color: white;
+    padding: 10px;
+    margin: auto;
+    width: 450px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: black;
+}
+button {
+    margin: 10px;
+    margin-top: 120px;
+    width: 125px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    background-color: green;
+    color: white;
+}
+img {
+    width: 415px;
+
+}
+figure {
+    padding: 5px;
+    margin: auto;
+
+}

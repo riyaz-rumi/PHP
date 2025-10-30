@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webscript 6 New</title>
+    <link href="css/webscript_6_new.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <form action="webscript_6_new.php" method="post">
+            <h2>Math-Functions</h2>
+            Enter First Number: <input type="number" max="10000000" name="fn" required/>
+            <br />
+            Enter Second Number: <input type="number" max="10000000" name="sn" required/>
+            <br />
+            <div id="left">
+                <input type="radio" name="built_in_function" value="sqrt"/>sqrt ( )<br />
+                <input type="radio" name="built_in_function" value="min"/>min ( )<br />
+                <input type="radio" name="built_in_function" value="max"/>max ( )
+            </div>
+            <div id="middle">
+                <input type="radio" name="built_in_function" value="pow"/>pow ( )<br />
+                <input type="radio" name="built_in_function" value="rand"/>rand ( )<br />
+                <input type="radio" name="built_in_function" value="decbin"/>decbin ( )<br />
+            </div>
+            <div id="right">
+                <input type="radio" name="built_in_function" value=""/>bindec ( )<br />
+                <input type="radio" name="built_in_function" value=""/>rand ( )<br />
+                <input type="radio" name="built_in_function" value=""/>decbin ( )<br />
+            </div>
+            <br />
+            <input type="submit" id="go" value="Go" />
+            <input type="reset" id="reset" value="Reset" />
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+html {
+    padding: 0px;
+    margin: 10px;
+}
+body {
+    text-align: center;
+}
+.DarkMode {
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+}
+button {
+    margin: 10px;
+    margin-top: 120px;
+    width: 125px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    background-color: green;
+    color: white;
+}
+img {
+    width: 415px;
+
+}
+figure {
+    padding: 5px;
+    margin: auto;
+
+}

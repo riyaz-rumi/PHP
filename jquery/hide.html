@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hide Event</title>
+    <link rel="stylesheet" href="margepadd.css" />
+    <script src='jquery.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("img").hide(4000, function(){
+                    alert("Your image is completely hidden in 4 seconds!");
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <button>Click to hide the image</button><br />
+    <img src="png1.png"/>
+</body>
+</html>

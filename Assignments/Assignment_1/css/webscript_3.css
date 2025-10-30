@@ -1,0 +1,57 @@
+* {
+    padding: 1px;
+    margin: 10px;
+}
+form {
+    color: white;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: white;
+}
+div {
+    margin: auto;
+    padding: 10px;
+    width: 28%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: black;
+}
+#phpdiv {
+    margin: auto;
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-align: left;
+    color: white;
+}
+.number {
+    width: 12.5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+#Go {
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    background-color: green;
+    color: white;
+}
+#Reset {
+    margin: 0 40px;
+    padding: 5px;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    background-color: red;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}

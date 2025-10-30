@@ -1,0 +1,70 @@
+* {
+    padding: 1px;
+    margin: 10px;
+}
+form {
+    color: white;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    /* text-align: center; */
+    background-color: white;
+    color: white;
+}
+div {
+    margin: auto;
+    width: 420px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+.number {
+    width: 18%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.left {
+    width: 200px;
+    background-color: black;
+    text-align: left;
+    margin: 0px 10px;
+    position: absolute;
+}
+.right {
+    width: 170px;
+    margin: 0px 210px;
+    background-color: black;
+    text-align: left;
+    position: relative;
+
+}
+#Go {
+    margin: 20px 15px;
+    padding: 7px;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    background-color: green;
+    color: white;
+    position: relative;
+}
+#Reset {
+    margin: 15px 15px;
+    padding: 7px;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    background-color: red;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.result {
+    text-align: left;
+}

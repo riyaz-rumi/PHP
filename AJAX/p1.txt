@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax</title>
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $.ajax({url:"text.txt",
+                        type: 'GET',
+                        success: function(Heading){
+                            $("h4").html(Heading);
+                        }  
+                });
+            });
+            $("button").dblclick(function(){
+                $.ajax({url:"p1.txt",
+                        type: 'GET',
+                        success: function(SourceCode){
+                        $("pre").text(SourceCode);
+                    }
+			    });
+		    });
+        });
+    </script>
+</head>
+<body>
+    Click the button see heading & double click to see the source code
+    <button>BUTTON</button>
+    <h4></h4>
+    <pre style="font-family: 'Times-New-Roman';"></pre>
+</body>
+</html>

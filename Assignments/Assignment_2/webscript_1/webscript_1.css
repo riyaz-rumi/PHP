@@ -1,0 +1,63 @@
+* {
+    padding: 0px;
+    margin: 10px;
+}
+body {
+    text-align: center;
+    font-size: 1.0em;
+}
+div {
+    width: 620px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    margin: auto;
+}
+#go {
+    width: 22%;
+    padding: 6px;
+    font-size: 1.0em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(18, 136, 32);
+    color: white;
+}
+#reset {
+    width: 22%;
+    padding: 6px;
+    font-size: 1.0em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(164, 16, 16);
+    color: white;
+}
+a {
+    color: white;
+    /* text-decoration: none; */
+}   
+pre {
+    font-family: 'Times New Roman', Times, serif;    
+    text-align: left;
+    margin: 0px;
+}
+hr {
+    padding: 0px;
+    margin: 0px;
+}
+input {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.0em;
+}
+table{
+    width: 600px;
+    color: white;
+    border: 1px solid white;
+}
+th, tr {
+    border: 0px solid white;
+    text-align: center;
+}
+#price {
+    text-align: right;
+}
+#name {
+    text-align: left;
+}

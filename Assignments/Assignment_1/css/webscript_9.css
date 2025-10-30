@@ -1,0 +1,68 @@
+* {
+    padding: 0px;
+    margin: 10px;
+}
+body {
+    font-size: 1.0em;
+    text-align: center;
+}
+div {
+    width: 290px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    margin: auto;
+}
+#phpdiv {
+    width: 800px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    margin: auto;
+}
+.myFlex div {
+    width: 160px;
+    display: inline-block;
+    text-align: left;
+}
+#go {
+    width: 28%;
+    position: sticky;
+    padding: 6px;
+    font-size: 1.0em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(18, 136, 32);
+    color: white;
+}
+#reset {
+    width: 28%;
+    position: sticky;
+    padding: 6px;
+    font-size: 1.0em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(164, 16, 16);
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 780px;
+    color: white;
+    border: white;
+}
+td{
+    border: 1px solid white;
+    text-align: center;
+}
+/* h3, h4{
+    color: greenyellow;
+} */
+pre {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}

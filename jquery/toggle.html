@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Toggle Button</title>
+    <link rel="stylesheet" href="margepadd.css" />
+    <script src='jquery.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("img").toggle();
+            });
+        });
+    </script>
+</head>
+<body>
+    <button>Toggle Button to hide/show the image</button><br /><br />
+    <img src="png1.png" />
+</body>
+</html>

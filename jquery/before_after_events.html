@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Before & After Event</title>
+    <link rel="stylesheet" href="margepadd.css" />
+    <script src='jquery.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("#b1").click(function(){
+                $("h4").before("<h3>Hello</h3>");
+            });
+            $("#b2").click(function(){
+                $("h4").after("<h5>Good Bye...</h5>");
+            });
+        });
+    </script>
+</head>
+<body>
+    <button id="b1">Before</button>
+    <button id="b2">After</button><br /><br />
+    <h4>How Are You?</h4>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webscript 1</title>
+    <link href="webscript_1.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <form action="webscript_1.php" method="post">
+            <h2>Book Information</h2>
+            <pre>
+                Book Name           : <input type="text" maxlength="30" name="book_name" required/>
+                Book Publication  : <input type="text" maxlength="30" name="book_publication" required/>
+                Book Price            : <input type="number" max="10000" name="book_price" required/>
+            </pre>
+            <input type="submit" id="go" value="Go" />
+            <input type="reset" id="reset" value="Reset" />
+        </form>
+    </div>
+</body>
+</html>

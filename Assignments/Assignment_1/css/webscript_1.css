@@ -1,0 +1,55 @@
+html {
+    padding: 0px;
+    margin: 25px;
+}
+body {
+    color: white;
+    text-align: center;
+
+}
+div {
+    color: white;
+    padding: 10px;
+    margin: auto;
+    width: 450px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: black;
+}
+#text {
+    padding: 2px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    border-bottom-color: white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: black ;
+}
+#Go {
+    margin: 15px 15px;
+    padding: 5px;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    background-color: green;
+    color: white;
+}
+#Reset {
+    margin: 15px 15px;
+    padding: 5px;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    background-color: red;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+b {
+    color: greenyellow;
+}

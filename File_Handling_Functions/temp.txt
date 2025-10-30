@@ -1,0 +1,1 @@
+This is fputs(), write in your file

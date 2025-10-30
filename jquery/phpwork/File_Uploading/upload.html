@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Upload</title>
+    <style>
+        #path {
+            width: 400px;
+        }
+    </style>
+    <script src='jquery.js'></script>
+    <!-- <script>
+        $(document).ready(function(){
+            $("#upload").focus(function(){
+                $("#label").show(1000);
+            });
+        });
+    </script> -->
+</head>
+<body >
+    <form method="post" enctype="multipart/form-data" action="upload.php">
+        <input id="file" type="file" name="myfile" value="file" required/>
+        <br><br>
+        <label>Path : <input id="path" type="text" name="path" required/></label>
+        <br><br>
+        <input id="upload" type="submit" name="upload" value="Upload"/>
+        <!-- <input id="upload" type="submit" name="upload" value="Upload" onclick="path()"/> -->
+    </form>
+    <!-- <script>
+        if (document.getElementById(upload))
+        {
+            function path()
+            {
+            let t = "";
+            while (t == "")
+                t = prompt("Write or paste the path where you want to upload ?");
+                return t;
+            }
+            document.getElementById("path").innerHTML = t;
+        }
+    </script> -->
+</body>
+</html>

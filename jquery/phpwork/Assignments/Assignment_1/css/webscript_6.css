@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 15px;
+}
+body {
+    font-size: 1.0em;
+    text-align: center;
+}
+div {
+    width: 510px;
+    color: white;
+    background-color: black;
+    margin: auto;
+}
+input {
+    font-size: 1.0em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.myFlex {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: justify;
+}
+.myFlex div {
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+}
+#go {
+    width: 22%;
+    position: sticky;
+    padding: 6px;
+    font-size: 1.0em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(18, 136, 32);
+    color: white;
+}
+#reset {
+    width: 22%;
+    position: sticky;
+    padding: 6px;
+    font-size: 1.0em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(164, 16, 16);
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.left {
+    text-align: left;
+}
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .phpanchor {
+    color: greenyellow;
+    text-decoration: none;
+}
+.h2php {
+    color: greenyellow;
+}
+h3 {
+    color: greenyellow;
+} 
+.phpwarning {
+    color: white;
+}*/

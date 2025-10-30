@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webscript 7 New</title>
+    <link href="css/webscript_7_checkbox.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="myFlex">
+        <form action="webscript_7_checkbox.php" method="post">
+            <h2>String-Functions</h2>
+            <textarea rows="5" cols="50" maxlength="1000" name="string" placeholder="Enter String Here..." required/></textarea>
+            <div>
+                <label><input class="analysis" type="checkbox" name="string_functions[]" value="trim"/>trim ( )</label><br />
+                <label><input class="analysis" type="checkbox" name="string_functions[]" value="strlen"/>strlen ( )</label><br />
+                <label><input class="analysis" type="checkbox" name="string_functions[]" value="strtolower"/>strtolower ( )</label><br />
+                <label><input class="analysis" type="checkbox" name="string_functions[]" value="strtoupper"/>strtoupper ( )</label><br />
+            </div>
+            <div>
+                <label><input class="analysis" type="checkbox" name="string_functions[]" value="strrev"/>strrev ( )</label><br />
+                <label><input class="analysis" type="checkbox" name="string_functions[]" value="ucfirst"/>ucfirst ( )</label><br />
+                <label><input class="analysis" type="checkbox" name="string_functions[]" value="lcfirst"/>lcfirst ( )</label><br />
+                <label><input class="analysis" type="checkbox" name="string_functions[]" value="str_shuffle"/>str_shuffle ( )</label><br />
+            </div>
+            <br />
+            <input type="submit" id="go" value="Go" />
+            <input type="reset" id="reset" value="Reset" />
+        </form>
+    </div>
+    <style>
+
+    </style>
+</body>
+</html>

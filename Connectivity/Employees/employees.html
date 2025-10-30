@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insert Employee Info</title>
+    <link href="employees.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="myFlex">
+        <form action="insert.php" method="post">
+            <h2>Employee Info</h2>
+                Name           : <input type="text" maxlength="30" name="name" required/>
+                <br />
+                Age  : <input type="number" max="60" name="age" required/>
+                <br />
+                <h4>Experience</h4>
+                <div id="exp">
+                    <input type="radio" name="experience"/>less than 5 Years
+                    <br />
+                    <input type="radio" name="experience"/>5 To 10 Years
+                    <br />
+                    <input type="radio" name="experience"/>10 To 20 Years
+                    <br />
+                    <input type="radio" name="experience"/>20 To 30 Years Or More
+                </div>
+                Salary  : <input type="number" max="100000" name="salary" required/>
+                <br />
+            <input type="submit" id="go" value="Go" />
+            <input type="reset" id="reset" value="Reset" />
+        </form>
+    </div>
+</body>
+</html>

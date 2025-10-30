@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webscript 8</title>
+    <link href="css/webscript_8.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="myFlex">
+        <form action="webscript_8.php" method="post">
+            <h2>Array Functions</h2>
+            <hr>
+            <h3>Fruits Array</h3>
+            <div class="fruits">
+                <label><input type="checkbox" name="fruits_array[]" value="Mango" />Mango</label><br />
+                <label><input type="checkbox" name="fruits_array[]" value="Apple" />Apple</label><br />
+                <label><input type="checkbox" name="fruits_array[]" value="Pineapple" />Pineapple</label><br />
+            </div>
+            <div class="fruits">
+                <label><input type="checkbox" name="fruits_array[]" value="Lemon" />Lemon</label><br />
+               <label><input type="checkbox" name="fruits_array[]" value="Papaya" />Papaya</label><br />
+               <label><input type="checkbox" name="fruits_array[]" value="Guava" />Guava</label><br />
+            </div>
+            <div class="fruits">
+                <label><input type="checkbox" name="fruits_array[]" value="Banana" />Banana</label><br />
+                <label><input type="checkbox" name="fruits_array[]" value="Orange" />Orange</label><br />
+                <label><input type="checkbox" name="fruits_array[]" value="Litchie" />Litchie</label><br />
+            </div>
+            <!-- <label><input type="checkbox" name="fruits_array[]" />Watermalen</label> -->
+            <hr />
+            <h3>Array Functions</h3>
+            <div class="functions">
+                <label><input class="analysis" type="radio" name="array_function" value="sort"/>sort ( )</label><br />
+                <label><input class="analysis" type="radio" name="array_function" value="count"/>count ( )</label><br />
+            </div>
+            <div class="functions">
+                <label><input class="analysis" type="radio" name="array_function" value="asort"/>asort ( )</label><br />
+                <label><input class="analysis" type="radio" name="array_function" value="rsort"/>rsort ( )</label><br />
+            </div>
+            <div class="functions">
+                <label><input class="analysis" type="radio" name="array_function" value="arsort"/>arsort ( )</label><br />
+                <label><input class="analysis" type="radio" name="array_function" value="array_reverse"/>array_reverse ( )</label><br />
+            </div>
+            <!-- <label><input class="analysis" type="radio" name="array_functions[]" value="arsort"/>arsort ( )</label><br />
+            <label><input class="analysis" type="radio" name="array_functions[]" value="array_merge"/>array_merge ( )</label><br /> -->
+            <hr />
+            <br />
+            <input type="submit" id="go" value="Go" />
+            <input type="reset" id="reset" value="Reset" />
+        </form>
+    </div>
+    <style>
+
+    </style>
+</body>
+</html>

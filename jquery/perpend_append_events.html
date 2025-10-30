@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prepend & append Event</title>
+    <link rel="stylesheet" href="margepadd.css" />
+    <script src='jquery.js'></script>
+    <script>
+    </script>
+    <script>
+        $(document).ready(function(){
+            $(".subjectsClass").click(function(){
+                $("#append").click(function(){
+
+                    if(document.getElementById('rb1').checked)
+                        a = document.getElementById('rb1').value;
+                    if(document.getElementById('rb2').checked)
+                        a = document.getElementById('rb2').value;
+                    if(document.getElementById('rb3').checked)
+                        a = document.getElementById('rb3').value;
+                    if(document.getElementById('rb4').checked)
+                        a = document.getElementById('rb4').value;
+                    if(document.getElementById('rb4').checked)
+                        a = document.getElementById('rb4').value;
+                    if(document.getElementById('rb5').checked)
+                        a = document.getElementById('rb5').value;
+                    if(document.getElementById('rb6').checked)
+                        a = document.getElementById('rb6').value;
+                    if(document.getElementById('rb7').checked)
+                        a = document.getElementById('rb7').value;
+                    if(document.getElementById('rb8').checked)
+                        a = document.getElementById('rb8').value;
+                    if(document.getElementById('rb9').checked)
+                        a = document.getElementById('rb9').value;
+                    if(document.getElementById('rb0').checked)
+                        a = document.getElementById('rb0').value;
+
+                    //$("ul").append("<li>" + document.getElementById('rb1').value + "</li>");
+
+                    $("ul").append("<li>" + a + "</li>");
+                    $("body").load();
+                });
+            });
+            $(".subjectsClass").click(function(){
+                $("#prepend").click(function(){
+
+                    if(document.getElementById('rb1').checked)
+                        a = document.getElementById('rb1').value;
+                    if(document.getElementById('rb2').checked)
+                        a = document.getElementById('rb2').value;
+                    if(document.getElementById('rb3').checked)
+                        a = document.getElementById('rb3').value;
+                    if(document.getElementById('rb4').checked)
+                        a = document.getElementById('rb4').value;
+                    if(document.getElementById('rb4').checked)
+                        a = document.getElementById('rb4').value;
+                    if(document.getElementById('rb5').checked)
+                        a = document.getElementById('rb5').value;
+                    if(document.getElementById('rb6').checked)
+                        a = document.getElementById('rb6').value;
+                    if(document.getElementById('rb7').checked)
+                        a = document.getElementById('rb7').value;
+                    if(document.getElementById('rb8').checked)
+                        a = document.getElementById('rb8').value;
+                    if(document.getElementById('rb9').checked)
+                        a = document.getElementById('rb9').value;
+                    if(document.getElementById('rb0').checked)
+                        a = document.getElementById('rb0').value;
+                    //$("ul").append("<li>" + document.getElementById('rb1').value + "</li>");
+                    
+                    $("ul").prepend("<li>" + a + "</li>");
+                    $("body").load();
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    
+    <h3>Subjects</h3>
+    <label><input id="rb1" name="subject" class="subjectsClass" type="radio" value="C"/>C</label>
+    <label><input id="rb2" name="subject" class="subjectsClass" type="radio" value="HTML"/>HTML</label>
+    <label><input id="rb3" name="subject" class="subjectsClass" type="radio" value="CSS"/>CSS</label>
+    <label><input id="rb4" name="subject" class="subjectsClass" type="radio" value="JavaScript"/>JavaScript</label>
+    <label><input id="rb5" name="subject" class="subjectsClass" type="radio" value="php"/>php</label>
+    <label><input id="rb6" name="subject" class="subjectsClass" type="radio" value="SQL"/>SQL</label>
+    <label><input id="rb7" name="subject" class="subjectsClass" type="radio" value="C++"/>C++</label>
+    <label><input id="rb8" name="subject" class="subjectsClass" type="radio" value="Java"/>Java</label>
+    <label><input id="rb9" name="subject" class="subjectsClass" type="radio" value="C#"/>C#</label>
+    <label><input id="rb0" name="subject" class="subjectsClass" type="radio" value="Python"/>Python</label>
+    <br /><br />
+    <button id="prepend">Prepend</button>
+    <button id="append">append</button>
+    <ul>
+    </ul>
+</body>
+</html>

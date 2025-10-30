@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fetching Data Using AJAX</title>
+    <script src="jquery.js"></script>
+    <script>
+        function printinfo(name)
+        {
+            if (name == "")
+                document.getElementById("d1").innerHTML = "No Changes occured!";
+            else
+            {
+                xml = new XMLHttpRequest();
+                xml.onreadystatechange = 
+                function() 
+                {
+                    if (this.readyState == 4 && this.status == 200) 
+                       document.getElementById("d1").innerHTML = this.responseText;
+                };
+                xml.open("GET", "webscript_13.php?name=" + name, true);
+                xml.send();
+            }
+        }
+    </script>
+</head>
+<body>
+    <h3>Students' Name</h3>
+    <select name="sname" id="sname" onchange="printinfo(this.value)">
+        <option value="">Select Student Name</option>
+        <option value="Roy Disney">Roy Disney</option>
+        <option value="Walt Disney">Walt Disney</option>
+        <option value="Roger Pressman">Roger Pressman</option>
+        <option value="Berry Boehm">Berry Boehm</option>
+        <option value="Henry Fayoll">Henry Fayoll</option>
+    </select>
+    <h4 id="d1">Data Will Be Shown Here...</h4>
+</body>
+</html>

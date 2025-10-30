@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+input {
+    padding: 5px;
+    margin: 5px;
+}
+#Operator {
+    position: block;
+}
+#Go {
+    margin: 5px;
+    padding: 8px;
+    width: 100px;
+    background-color: green;
+    color: white;
+}
+#Reset {
+    margin: 5px;
+    padding: 8px;
+    width: 100px;
+    background-color: red;
+    color: white;
+
+}

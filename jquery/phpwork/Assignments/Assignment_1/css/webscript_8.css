@@ -1,0 +1,69 @@
+* {
+    padding: 0px;
+    margin: 10px;
+}
+body {
+    text-align: center;
+    font-size: 1.0em;
+}
+div {
+    width: 530px;
+    padding: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    margin: auto;
+}
+.fruits {
+    width: 160px;
+    margin-left: -4px;
+    font-size: 1.0em;
+    background-color: black;
+    display: inline-block;
+    text-align: left;
+}
+.functions {
+    width: 160px;
+    margin-left: -4px;
+    font-size: 1.0em;
+    background-color: black;
+    display: inline-block;
+    text-align: left;
+}
+#go {
+    width: 22%;
+    /* position: sticky; */
+    padding: 6px;
+    font-size: 1.0em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(18, 136, 32);
+    color: white;
+}
+#reset {
+    width: 22%;
+    /* position: sticky; */
+    padding: 6px;
+    font-size: 1.0em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(164, 16, 16);
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}   
+.left {
+    text-align: left;
+    width: 830px;
+}
+pre {
+    font-family: 'Times New Roman', Times, serif;    
+    text-align: left;
+    margin: 0px;
+}
+hr {
+    padding: 0px;
+    margin: 0px;
+}
